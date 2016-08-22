@@ -1,7 +1,7 @@
 # SearchStringInDirectory
 PHP Search String In Directory
 
- [Demo](http://bpotech.com.vn/cms/search-engine/#read_me)
+ [Demo](http://dev.bpotech.com.vn/search-engine/#read_me)
 
 How to use
  1. Require class: `require_once 'SearchStringInDirectory.php';`
