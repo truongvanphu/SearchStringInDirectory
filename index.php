@@ -41,6 +41,12 @@
 		<script type="text/javascript">
 			var APP_URL = "<?php echo $_SERVER['HOST'].$_SERVER['REQUEST_URI'] ?>";
 		</script>
+		<style type="text/css" media="screen">
+			table.framed.light {
+			    display: inline-block;
+			    margin-right: 15px;
+			}
+		</style>	
 	</head>
 	<body>
 		<div class="container-fluid" id="content">
@@ -58,6 +64,9 @@
 					</li>
 					<li role="presentation">
 						<a href="#upload_file" aria-controls="upload_file" role="tab" data-toggle="tab">UPLOAD FILE</a>
+					</li>
+					<li role="presentation">
+						<a href="#voting" aria-controls="voting" role="tab" data-toggle="tab">VOTING MY PACKAGE</a>
 					</li>
 				</ul>
 			
@@ -114,9 +123,9 @@
 								<?php
 									if ((isset($_POST['searchString']) && $_POST['searchString'] != '') && $_SERVER['REQUEST_METHOD'] == "POST" && count($files) <= 0) {
 								?>
-										<div class="alert alert-success">
+										<div class="alert alert-warning">
 											<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-											<strong>Success !</strong> File not matches string search ...
+											<strong>Results !</strong> File not matches string search ...
 										</div>
 								<?php
 									}
@@ -318,6 +327,19 @@
 								    </tr>
 								{% } %}
 								</script>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="voting">
+						<div class="panel panel-default" style="border-top: none;border-radius: 0 0px 4px 4px;">
+							<div class="panel-body">
+								<div class="pull-left">
+									<script src="http://www.phpclasses.org/browse/package/9895/format/badge.js"> </script>
+								</div>
+								<div class="pull-left">
+									<h3>Thank for voting</h3>
+									<p>Please refer page <a href="http://www.phpclasses.org/vote.html" title="http://www.phpclasses.org/vote.html">http://www.phpclasses.org/vote.html</a></p>
+								</div>
 							</div>
 						</div>
 					</div>
