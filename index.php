@@ -78,7 +78,7 @@
 								<div class="bs-callout bs-callout-warning" id="callout-third-party-libs">
 									<h4>Upload file</h4>
 									<p>
-										Upload file in Upload file tab with file type <code>(JPG, GIF, PNG, TXT, DOC, PPT, XLS)</code> less than 10Mib.
+										Upload file in Upload file tab with file types <code>(TXT, DOC, PPT, XLS)</code> less than 10Mib.
 									</p>
 									<p>
 										Execute command <code>chmod 0775 jquery-upload-file/server/php/files</code> OR <code>chmod 2775 jquery-upload-file/server/php/files</code> to allow upload files.
@@ -95,7 +95,7 @@
 								<div class="bs-callout bs-callout-warning" id="callout-third-party-libs">
 									<h4>Notes and feature</h4>
 									<p>
-										Currently, the search engine apply forthe file types <code>(JPG, GIF, PNG, TXT, DOC, PPT, XLS)</code>. In a future, we will improve on all the documents type.
+										Currently, the search engine apply for the file types <code>(TXT, DOC, PPT, XLS)</code>. In a future, we will improve on all the documents type.
 									</p>
 									<p>
 										With the format of (DOC, PPT, XLS) files only can searching by <code>Single-byte Characters</code>
@@ -246,7 +246,7 @@
 								        <div class="panel-body">
 								            <ul>
 								                <li>The maximum file size for uploads in this demo is <strong><?php echo 10; ?> MiB</strong> (default file size is unlimited).</li>
-								                <li>Only image files (<strong>JPG, GIF, PNG, DOC, TXT, PPT, PDF</strong>) are allowed in this demo (by default there is no file type restriction).</li>
+								                <li>Only file types (<strong>DOC, TXT, PPT, PDF</strong>) are allowed in this demo (by default there is no file type restriction).</li>
 								        </div>
 								    </div>
 								    <!-- The table listing the files available for upload/download -->
