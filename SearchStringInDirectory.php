@@ -64,7 +64,7 @@ class SearchStringInDirectory
 
     function search($string = null)
     {
-        $this->searchString = $string;
+        $this->searchString = trim($string);
         $command = $this->createSearchCommand();
         return $this->exec($command);
     }
