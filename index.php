@@ -24,7 +24,7 @@
 		<title>Search Engine</title>
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="jquery-upload-file/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="jquery-upload-file/css/bootstrap.min.css">
 		<link rel="stylesheet" href="jquery-upload-file/css/docs.css">
 		<link rel="stylesheet" href="jquery-upload-file/css/style.css">
 		<!-- blueimp Gallery styles -->

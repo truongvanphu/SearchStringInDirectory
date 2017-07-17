@@ -32,7 +32,7 @@ class SearchStringInDirectory
         else{
             $string = $this->searchString;
         }
-        return $this->command.' '.$this->searchOptions.' "'.$string.'" '.$this->directory;
+        return $this->command." ".$this->searchOptions." '".$string."' ".$this->directory;
     }
 
     function isWindows()

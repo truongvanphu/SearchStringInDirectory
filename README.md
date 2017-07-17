@@ -17,6 +17,6 @@ Example code in 'index.php' file.
 Thank you !
 
 # Donations
-PHP Search String In Directory has been created by [phutv](https://plus.google.com/+vanphuTruong) and is currently maintained by him and his team. We highly appreciate any of your donations.
+I highly appreciate any of your donations.
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FLHJAF2ECGXGQ)
