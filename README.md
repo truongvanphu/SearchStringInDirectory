@@ -8,7 +8,7 @@ This class provides an alternative that can be faster by using the grep command 
 How to use
  1. Require class: `require_once 'SearchStringInDirectory.php';`
  2. Using: `$srch = new SearchStringInDirectory('/path/to/search/folder');`
- 2. Using: `$result $srch->search("Search string");`
+ 3. Using: `$result $srch->search("Search string");`
 
 Example code in 'index.php' file.
 
